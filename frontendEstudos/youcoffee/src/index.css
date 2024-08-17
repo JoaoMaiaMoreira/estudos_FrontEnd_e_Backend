@@ -1,0 +1,22 @@
+@font-face {
+  font-family:  'Monstserrat';
+      src:url('./font/Montserrat-VariableFont_wght.ttf') format('truetype')
+   
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Monstserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+input{
+  outline: 0;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

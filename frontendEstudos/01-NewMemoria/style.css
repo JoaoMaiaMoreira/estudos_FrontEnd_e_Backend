@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 90, 60);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    height: 20%;
+}
+
+/* div.deck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    height: 20%;
+} */
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-image:url("images.jpeg");
+    height: 277px;
+    width: 192px;
+    border-color: black;
+    cursor: pointer;
+}

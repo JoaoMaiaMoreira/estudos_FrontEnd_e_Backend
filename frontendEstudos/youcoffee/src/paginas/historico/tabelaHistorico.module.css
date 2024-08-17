@@ -1,0 +1,33 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.table tr{
+    align-items: right;
+    height: 50px;
+    border: 1px solid #F2F4F8;
+
+}
+
+
+.table tr:nth-child(even){
+    background-color: #9E184B33;
+    
+} 
+
+.table tr:nth-child(odd){
+    background: #9E184B1F;
+
+}
+
+.clickable {
+    color: #9E184B;
+    cursor: pointer;
+    font-weight: 450;
+    transition: 150ms linear;
+}
+
+.clickable:hover {
+    transform: scale(1.1);
+}

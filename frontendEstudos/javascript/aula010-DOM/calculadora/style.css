@@ -1,0 +1,20 @@
+body{
+    font: normal 18pt Arial;
+    background-color: rgb(88, 88, 88);
+}
+
+h1{
+    color:aliceblue;
+    
+}
+
+div{
+
+    color:aliceblue;
+}
+
+input{
+    font: normal 18pt Arial;
+    width: 100px;
+    background-color: lightseagreen;
+}

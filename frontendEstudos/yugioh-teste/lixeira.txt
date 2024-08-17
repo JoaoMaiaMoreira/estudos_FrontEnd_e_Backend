@@ -1,0 +1,73 @@
+Aqui temos projetos que eu fiz mas descartei, acho legal deixar aqui para ver oq pensei e como ficou:
+
+ function BasicModal() {
+    return (
+      <div>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <Typography id="modal-modal-title" variant="h6" component="h2">
+              <Button onClick={() => informacoes(cardId)}>Ver detalhes</Button>
+              <Button onClick={() => userDeck(cardId)}> Seu Deck</Button>
+              <Button onClick={() => AdicionarDeck(cardId)}>Adicionar</Button>
+            </Typography>
+          </Box>
+        </Modal>
+      </div>
+    );
+  }
+
+
+/// projeto para enviar 
+
+   //   fetch("https://db.ygoprodeck.com/api/v7/cardinfo.php")
+    // .then(response => response.json())export default Deck;
+    // .then(data => console.log(data))
+    // .catch(error => console.error(error));
+
+    // aqui quero que clique na carta pesquise a ipi que contem os dados dela e assim exiba na tela
+    // vou usar um feth e setCartasExibidas()
+
+    // async function buscarCartas() {
+    //   console.log(
+    //     "object :>> ",
+    //     "https://db.ygoprodeck.com/api/v7/cardinfo.php?id=" + id
+    //   );
+    //   const respostaCartas = await fetch(
+    //     "https://db.ygoprodeck.com/api/v7/cardinfo.php?id=" + id,
+    //     {
+    //       method: "GET",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //     }
+    //   );
+
+    //   let respostaCartaLista = await respostaCartas.json();
+
+    //   console.log("respostaCartaLista :>> ", respostaCartaLista.length);
+    //   setCartasExibidas(respostaCartaLista);
+    // }
+
+    // function handleChange (e){
+    //     setProject({...cartinha, [e.target.name]: e.target.value })
+    //    }
+
+    antes ia enviar para deck separado
+
+    const [open, setOpen] = React.useState(false);
+  // passei para cima para ser global a ideia é que quuando clicar no botao abra a informacoes do modal
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  ///Ia conter um menuznho no qual seria tipo uma aba de opcoes
+
+  function menuzinho(e, id) {
+    e.preventDefault();
+    setCardId(id);
+    setOpen(true);
+  }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<h1>Calculadora</h1>
+
+<body>
+ 
+ <section id="fundo">
+    
+
+    <div>
+        
+        <p id="resposta"> </p>
+
+    </div>
+
+    <div id="paizao">
+        <div id="corte1">
+            <button onclick="set(1)" value="1" id="n1">1</button>
+            <button onclick="set(2)" value="2" id="n2">2</button>
+            <button onclick="set(3)" value="3" id="n3">3</button>
+        </div>
+        
+        <div id="corte2">
+
+            <button onclick="set(4)" value="4" id="n4">4</button>
+            <button onclick="set(5)" value="5" id="n5">5</button>
+            <button onclick="set(6)" value="6" id="n6">6</button>
+          
+        </div>
+       
+        <div id="corte3">
+            <button onclick="set(7)" value="7" id="n7">7</button>
+            <button onclick= "set(8)"value="8" id="n8">8</button>
+            <button onclick="set(9)" value="9" id="n9">9</button>
+        </div>
+        
+        <div id="corte4">
+            <button onclick="set(0)" value="0" id="n0">0</button>
+            <button onclick="realizarOperacao('*')">x</button>
+            <button onclick="realizarOperacao('/')">/</button>
+        </div>
+
+        <div id="corte5">
+            <button onclick="realizarOperacao('-')" value="-" id="-">-</button>
+            <button onclick="realizarOperacao('+')">+</button>
+            <button onclick="calcular()"> = </button>
+        </div>
+
+        <div id="corte6">
+
+            <button onclick="apagar()" value="" id="apagar">apagar</button>
+           
+        </div>
+
+        <div id="H"> Historico</div>
+
+        <!-- <select id="select"> </select> -->
+
+       
+    </div>
+
+ </section>  
+ 
+ <article>
+
+    <p id="historico"></p> 
+    <!-- <div> = </div> -->
+   
+</article>
+    
+ <script src="script.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+.cardTras{
+    background-image:url("img/images.jpeg");
+    height: 280px;
+    width: 192px;
+    cursor: pointer;
+
+}
+
+header#pai1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+
+header#pai2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+h2{
+    text-align: center;
+}
+
+#pontuacao{
+    font-size: 100px;
+    text-align: center;
+}
+
+.teste {
+    background: red;
+    height: 20px;
+    width: 600px;
+    margin: 5px;
+}
+
+.divPai {
+    background: yellow;
+    width: 10000;
+    height: 20px;
+    display: flex;
+
+
+}

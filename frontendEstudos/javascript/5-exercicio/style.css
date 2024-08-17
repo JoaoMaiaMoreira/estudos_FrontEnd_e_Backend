@@ -1,0 +1,59 @@
+body{
+    background-color: khaki;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    background-color: ivory;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 70px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.450);
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    
+}
+
+select{
+    width: 80px;
+    height: 40px;    
+}
+
+button{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: transform 220ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.4);
+}
+
+div{
+    text-align: center;
+}
+
+div#digi{
+    background-color: ivory;
+}
+
+div#resposta{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div#resposta2{
+    color:black;
+    
+}

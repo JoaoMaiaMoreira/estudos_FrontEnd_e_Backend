@@ -1,0 +1,135 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 141, 224);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    border: 2px solid purple;
+    margin:auto auto;
+    
+
+}
+
+input{
+    height: 120px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.add{
+    width: 20%;
+    cursor: pointer;
+    background-color: rgb(252, 252, 79) ;
+    font-weight: bold;
+    border:none;
+    height: 120px;
+    
+}
+
+main{
+    display:flex;
+    flex-flow:row wrap;
+    width: 90%;
+    margin: auto auto;
+    border:1px solid blue;
+    padding-top: 40px;
+
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px purple;
+    margin-bottom: 2%;
+}
+
+.item-icone{
+    flex:20%;
+    /* border: 1px solid palegreen; */
+    text-align: center;
+    font-size: 2rem;
+}
+
+.item-nome{
+    flex:55%;
+    /* border: 1px solid rgb(255, 153, 0); */
+    font-size: 20px;
+}
+
+.item-botao{
+    flex:25%;
+    /* border: 1px solid rgb(238, 255, 0); */
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.delete{
+    background-color: rgb(255, 37, 37);
+    color:white;
+    border: none;
+    width: 100%;
+    height: 80px;
+}
+
+.icone{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border: none;
+    width: 100%;
+    height: 80px;
+}
+
+/* .itemclicado{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px purple;
+    margin-bottom: 2%;
+} */
+
+.iconeClicado{
+ 
+    color:rgb(0, 0, 0);
+    border: none;
+    width: 100%;
+    height: 80px;
+    color: rgb(5, 128, 5);
+    background-color: rgb(186, 255, 186);
+}
+
+.item.clicado{
+    background-color: rgb(186, 255, 186);
+   
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color:rgb(102, 100, 100)
+
+}

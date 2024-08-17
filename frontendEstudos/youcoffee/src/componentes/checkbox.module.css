@@ -1,0 +1,17 @@
+.checkbox {
+    width: 21px;
+    min-width: 21px;
+    height: 21px;
+    min-height: 21px;
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}

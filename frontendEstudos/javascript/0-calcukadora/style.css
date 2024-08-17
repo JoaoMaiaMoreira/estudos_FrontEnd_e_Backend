@@ -1,0 +1,92 @@
+/* html{
+    box-sizing: border-box;
+    box-sizing: inherit;
+    font-size: 200%;
+    line-height:30px;
+} */
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#fundo {
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: rgb(72, 236, 135);
+    align-items: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+p#resposta{
+    background-color: rgba(0, 0, 0, 0.116);
+    width: 310px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+div#paizao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+       
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 250ms ease-in-out;
+    border-radius: 30%;
+    margin-bottom: 4.5px;
+    background-color: rgb(169, 255, 226);
+    
+}
+
+button#apagar{
+    height: 100px;
+    width: 306px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(72, 236, 135);
+    align-items: center;
+    width: 310px;
+    height: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+select{
+    width: 310px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#H{
+    font-size: 35px;
+}
+
+#historico{
+    font-size: 25px;
+}

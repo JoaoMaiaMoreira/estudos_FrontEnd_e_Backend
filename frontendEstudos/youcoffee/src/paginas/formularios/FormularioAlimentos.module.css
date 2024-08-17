@@ -1,0 +1,119 @@
+
+.section{
+    font-family: 'Monstserrat';
+    background-color: #F2F4F8;   
+    width: 50%;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    min-width: 700px;
+}
+
+.section h2{
+    color: #9E184B;
+    font-size: 28px;
+}
+
+.section h1{
+    margin-top: 40px;
+    font-size: 18px;
+    
+}
+
+.section td{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.section li{
+    padding-bottom: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.page{
+    background-color: #EBE9E2    ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.enquadramento{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+
+
+.inputFalse{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+    width: 50px;
+    color: black;
+    
+}
+
+.inputTrue{
+    border: none;
+    border-bottom: 1px solid rgb(172, 170, 170);
+    outline: none;
+    color: black;
+    background: transparent;
+    width: 50px;
+}
+
+.labelFalse{
+    color: black;
+}
+
+.labelTrue{
+   color: rgb(172, 170, 170);
+}
+
+.imagemLogoYoux{
+    width: 146px;
+    height: 47px;
+    position: absolute;
+}
+
+.voltarProximo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.inputDados{
+    width: 65%;
+    height: 45px;
+}
+
+.inputAlimento{
+    width: 90%;
+    height: 45px;
+}
+
+.atencao {
+    color: #9E184B;
+}

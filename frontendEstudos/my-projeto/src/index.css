@@ -1,0 +1,17 @@
+body{
+  padding: 50px;
+  background-color: rgb(0, 141, 94);
+}
+
+h2{
+  color:chartreuse;
+}
+
+h1{
+  color:chartreuse;
+}
+
+p{
+  color:chartreuse;
+  font-size: 33px;
+}

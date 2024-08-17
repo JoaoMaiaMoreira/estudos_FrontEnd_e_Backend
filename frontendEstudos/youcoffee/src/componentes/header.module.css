@@ -1,0 +1,39 @@
+.header{
+    background-color: #9E184B ;
+    width: 100%;
+    height: 136px;
+    top: 0;
+    border-bottom: 13px solid #543A20;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+}
+
+.header img{
+    width: 146px;
+    height: 47px;
+    margin-left: 60px ;
+}
+
+.header li{
+    margin-left: 60px;
+    color:white
+}
+
+.clickable {
+    cursor: pointer;
+    transition: 150ms linear;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}

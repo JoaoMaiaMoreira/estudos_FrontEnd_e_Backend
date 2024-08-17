@@ -1,0 +1,17 @@
+
+.button{
+    font-weight: 700;
+    border-radius: 100px;
+    width: 270px;
+    height: 45px;
+    padding: 10px 15px;
+    border: 2px solid  #9E184B;
+    width: 174px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 200ms linear;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}

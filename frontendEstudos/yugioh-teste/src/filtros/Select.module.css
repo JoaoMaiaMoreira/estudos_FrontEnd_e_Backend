@@ -1,0 +1,13 @@
+.sele{
+    display: flex;
+    font-size: 25px;
+}
+
+.sele select{
+    border: none;
+    height: 50px;
+    background-color: rgb(119, 223, 124);
+    border-radius: 15px;
+    font-size: 30px;
+    width: 204px;
+}

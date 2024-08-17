@@ -1,0 +1,29 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    display: flex;
+}
+
+.saberMais{
+    margin-top: 70vh;
+    margin-left: 13%;
+    color: aliceblue;
+    background: transparent;
+    width: 520px;
+    height: 226px;
+}
+
+.saberMais h1{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.saberMais h2{
+    font-size: 20px;
+    margin: 0px;
+}

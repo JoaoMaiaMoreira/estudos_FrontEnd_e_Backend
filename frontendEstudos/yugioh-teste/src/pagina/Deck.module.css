@@ -1,0 +1,124 @@
+.deck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.deck h1{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.deck_escolhas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deck p{
+   font-size: 24px;
+}
+ 
+
+.section{
+    width: 30%;
+    height: 420px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    margin-top: 25px;
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    
+}
+
+
+
+.containerCartas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.section p{
+    border: 5px solid black;
+    margin-top: 15px;
+    width: 250px;
+    height: 48px;
+     
+}
+
+.deck select{
+    width: 260px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.deck input{
+    background-color: rgb(119, 223, 124);
+    border-radius: 15px;
+    font-size: 20px ;
+    color: black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+ }
+
+ .deck_button{
+    background-color: rgb(119, 223, 124);
+    color: rgb(0, 0, 0);
+    width: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 100%;   
+    transition: 500ms linear; 
+}
+
+
+.deck button:hover {
+    transform: scale(1.1);
+  }
+
+.deck_separa{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.deck_input{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 401px;
+  */
+}
+
+.deck_button2{
+    background-color: rgb(119, 223, 124);
+    color: rgb(0, 0, 0);
+    width: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    /* border-radius: 100%;    */
+    transition: 500ms linear; 
+}

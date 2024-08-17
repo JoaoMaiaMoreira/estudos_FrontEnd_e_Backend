@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+}
+
+html,
+body,
+#root{
+  background-color: rgb(252, 252, 238);
+  height: 100%;
+}

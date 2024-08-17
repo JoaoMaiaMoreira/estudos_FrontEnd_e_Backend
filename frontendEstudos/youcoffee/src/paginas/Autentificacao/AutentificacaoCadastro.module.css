@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: 'MonstserratBlack';
+    src: url('../../font/static/Montserrat-ExtraBold.ttf') format('truetype')
+   
+}
+/* src: url('../font/Montserrat-VariableFont_wght.ttf') format ('truetype');
+src: url ('../font/static/Montserrat-ExtraBold.ttf') format('truetype'); */
+
+
+
+.page{
+    background-color: #9E184B;
+    background-size: auto auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page p{
+    color: #543A20;
+
+}
+
+
+.sect{
+    width: 40%;
+    min-width: 600px;
+    height: 680px;
+    background-color: #EBE9E2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.imagemCafe{
+    position: absolute; 
+    width: 25%;
+    top: 0;
+    right: 0;
+}
+
+.tituloYouCofee{
+   width: 100%;
+   text-align: center;
+   
+   
+}
+
+.tituloYouCoffee h1{
+    width: 100%;
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#9E184B;
+    font-family: 'MonstserratBlack';
+}
+
+@media (max-width: 480px) {
+    .imagemCafe{
+        width: 0%;
+        top: 0;
+        right: 0;
+    }
+
+    .imagemTopo{
+     align-items: center;   
+     margin-left: 16%;
+    }
+ }
+
+.imagemLogoYoux{
+    width: 9%;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.imagemXicara{
+    position: absolute;
+     width: 19%;
+    bottom: 0;
+    left: 0;
+    border-radius: 20%;
+}
+
+.buttonEdit{
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.caixaInput{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subTitulo{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.caixaAllInput{
+    width: 67%;
+}
+
